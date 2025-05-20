@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+sqlalchemy
+psycopg2-binary
+geoalchemy2
+asyncpg
+alembic
+pydantic
+typing
+uuid
+redis
+databases
+fastapi_limiter
+python-dotenv
