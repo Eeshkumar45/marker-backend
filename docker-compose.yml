@@ -7,8 +7,8 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@db:5432/mydatabase
-      - REDIS_URL=redis://redis:6379
+      - POSTGRES=postgresql://postgres:postgres@db:5432/mydatabase
+      - REDIS=redis://redis:6379
     depends_on:
       - db
       - redis
